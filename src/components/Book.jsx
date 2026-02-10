@@ -11,17 +11,32 @@ const Page = ({ index, totalPages, currentPage, quote }) => {
   const isFlipped = index < currentPage;
   const isFlipping = index === currentPage - 1;
 
+  // 5-point shadow — peaks at -90° mid-flip
   const shadowOpacity = useTransform(
     rotateY,
-    [-180, -90, 0],
-    [0, 0.35, 0]
+    [-180, -120, -90, -60, 0],
+    [0, 0.2, 0.4, 0.2, 0]
+  );
+
+  // Page curl highlight — moving gradient simulates paper bending
+  const curlHighlightX = useTransform(rotateY, [-180, -90, 0], ['0%', '45%', '100%']);
+  const curlHighlightOpacity = useTransform(
+    rotateY,
+    [-180, -120, -90, -60, 0],
+    [0, 0.08, 0.15, 0.08, 0]
   );
 
   useEffect(() => {
     if (isFlipped || isFlipping) {
-      const controls = animate(rotateY, -180, {
+      // 3-phase flip: slow lift → fast mid-air → cushioned landing
+      const controls = animate(rotateY, [0, -60, -120, -180], {
         duration: FLIP_DURATION,
-        ease: [0.4, 0.0, 0.15, 1],
+        times: [0, 0.25, 0.55, 1.0],
+        ease: [
+          [0.2, 0.0, 0.6, 1.0],   // Lift-off — slow peel, accelerating
+          [0.0, 0.0, 1.0, 1.0],   // Mid-swing — fast, nearly linear
+          [0.0, 0.0, 0.2, 1.0],   // Landing — heavy deceleration, cushion
+        ],
       });
       return () => controls.stop();
     } else {
@@ -48,6 +63,20 @@ const Page = ({ index, totalPages, currentPage, quote }) => {
           </div>
         )}
         <motion.div className="page-shadow" style={{ opacity: shadowOpacity }} />
+        {/* Curl highlight — light catching bent paper */}
+        <motion.div
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: curlHighlightX,
+            width: '25%',
+            height: '100%',
+            background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.12), transparent)',
+            opacity: curlHighlightOpacity,
+            pointerEvents: 'none',
+            borderRadius: '0 4px 4px 0',
+          }}
+        />
       </div>
 
       {/* Back face — visible when page is flipped (shows on left side) */}
@@ -66,9 +95,15 @@ const CoverPage = ({ currentPage, totalPages }) => {
 
   useEffect(() => {
     if (isOpen) {
-      const controls = animate(rotateY, -180, {
-        duration: FLIP_DURATION,
-        ease: [0.4, 0.0, 0.15, 1],
+      // Cover is heavier — 1.5x duration, more initial resistance (spine friction)
+      const controls = animate(rotateY, [0, -50, -120, -180], {
+        duration: FLIP_DURATION * 1.5,
+        times: [0, 0.3, 0.6, 1.0],
+        ease: [
+          [0.35, 0.0, 0.85, 1.0],  // Heavy spine resistance
+          [0.15, 0.0, 0.45, 1.0],  // Gradually overcomes resistance
+          [0.0, 0.0, 0.15, 1.0],   // Settles with weight and authority
+        ],
       });
       return () => controls.stop();
     } else {
@@ -131,8 +166,10 @@ export const Book = ({ quotes }) => {
       };
     }
 
-    // Schedule next flip
-    const delay = currentPage === 0 ? 2500 : (FLIP_DURATION + PAUSE_BETWEEN_FLIPS) * 1000;
+    // Schedule next flip — cover is heavier so needs more time
+    const delay = currentPage === 0
+      ? (FLIP_DURATION * 1.5 + PAUSE_BETWEEN_FLIPS) * 1000
+      : (FLIP_DURATION + PAUSE_BETWEEN_FLIPS) * 1000;
     flipTimerRef.current = setTimeout(flipNext, delay);
     return () => {
       if (flipTimerRef.current) clearTimeout(flipTimerRef.current);

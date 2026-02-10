@@ -105,7 +105,7 @@ export const Hero = ({ t, lang }) => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.85 }}
-            whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(74, 122, 255, 0.3)' }}
+            whileHover={{ scale: 1.03, boxShadow: '0 6px 24px rgba(74, 122, 255, 0.3)' }}
             whileTap={{ scale: 0.98 }}
           >
             {t.hero.cta}

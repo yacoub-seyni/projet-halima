@@ -25,9 +25,10 @@ export const translations = {
       eyebrow: "Our Impact",
       title: "The Numbers That Matter",
       stats: [
-        { number: "2", label: "Libraries Built" },
-        { number: "510", suffix: "+", label: "Books Stewarded" },
-        { number: "50", suffix: "+", label: "Guardians Trained" },
+        { number: "4", label: "Libraries Built" },
+        { number: "1000", suffix: "+", label: "Books Stewarded" },
+        { number: "1300", suffix: "+", label: "Students Reached" },
+        { number: "50", suffix: "+", label: "Guardian Schools Trained" },
       ],
     },
     gallery: {
@@ -35,7 +36,7 @@ export const translations = {
       title: "Our Work in Action",
       images: [
         { src: "ndouga_00.JPG", caption: "Book donation ceremony in Ndouga village", location: "Ndouga, Maradi" },
-        { src: "waagona_00.JPG", caption: "Library setup at Waagona school", location: "Waagona, Maradi" },
+        { src: "waagona_00.JPG", caption: "Library setup at Waagona school", location: "Waagona, Tillabéri" },
       ],
     },
     philosophy: {
@@ -164,9 +165,10 @@ export const translations = {
       eyebrow: "Notre Impact",
       title: "Les Chiffres Qui Comptent",
       stats: [
-        { number: "2", label: "Bibliothèques Construites" },
-        { number: "510", suffix: "+", label: "Livres Confiés" },
-        { number: "50", suffix: "+", label: "Gardiens Formés" },
+        { number: "4", label: "Bibliothèques Construites" },
+        { number: "1000", suffix: "+", label: "Livres Confiés" },
+        { number: "1300", suffix: "+", label: "Élèves Touchés" },
+        { number: "50", suffix: "+", label: "Écoles Gardiennes Formées" },
       ],
     },
     gallery: {
@@ -174,7 +176,7 @@ export const translations = {
       title: "Notre Travail en Action",
       images: [
         { src: "ndouga_00.JPG", caption: "Cérémonie de don de livres au village de Ndouga", location: "Ndouga, Maradi" },
-        { src: "waagona_00.JPG", caption: "Mise en place de la bibliothèque à l'école de Waagona", location: "Waagona, Maradi" },
+        { src: "waagona_00.JPG", caption: "Mise en place de la bibliothèque à l'école de Waagona", location: "Waagona, Tillabéri" },
       ],
     },
     philosophy: {

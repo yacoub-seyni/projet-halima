@@ -8,12 +8,12 @@ export const Navbar = ({ lang, setLang, t }) => {
   const navBackground = useTransform(
     scrollY,
     [0, 100],
-    ['rgba(10, 10, 15, 0.6)', 'rgba(10, 10, 15, 0.92)']
+    ['rgba(253, 250, 245, 0.7)', 'rgba(253, 250, 245, 0.95)']
   );
   const navShadow = useTransform(
     scrollY,
     [0, 100],
-    ['0 4px 20px rgba(0, 0, 0, 0.15)', '0 4px 30px rgba(0, 0, 0, 0.4)']
+    ['0 2px 12px rgba(44, 24, 16, 0.04)', '0 4px 24px rgba(44, 24, 16, 0.08)']
   );
 
   const links = [
@@ -32,8 +32,8 @@ export const Navbar = ({ lang, setLang, t }) => {
   return (
     <motion.nav
       className="navbar"
-      initial={{ y: -100, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
+      initial={{ y: -100, x: "-50%", opacity: 0 }}
+      animate={{ y: 0, x: "-50%", opacity: 1 }}
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       style={{ background: navBackground, boxShadow: navShadow }}
     >
