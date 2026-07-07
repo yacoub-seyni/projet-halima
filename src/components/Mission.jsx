@@ -5,40 +5,54 @@ export const Mission = ({ t }) => {
   return (
     <section id="mission" className="section mission-section">
       <div className="container">
-        <motion.div
-          className="mission-content"
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
-          transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
-        >
-          <div className="section-eyebrow">{t.mission.eyebrow}</div>
-          <h2>{t.mission.title}</h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
+        <div className="mission-grid">
+          <motion.div
+            className="mission-content"
+            initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.8, delay: 0.1 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
           >
-            {t.mission.p1}
-          </motion.p>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            <div className="section-eyebrow">{t.mission.eyebrow}</div>
+            <h2>{t.mission.title}</h2>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-60px' }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+            >
+              {t.mission.p1}
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-60px' }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+            >
+              {t.mission.p2}
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-60px' }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+            >
+              {t.mission.p3}
+            </motion.p>
+          </motion.div>
+
+          <motion.div
+            className="mission-pull-quote"
+            initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
           >
-            {t.mission.p2}
-          </motion.p>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-          >
-            {t.mission.p3}
-          </motion.p>
-        </motion.div>
+            <div className="mission-pull-quote-mark">&ldquo;</div>
+            <p className="mission-pull-quote-text">{t.mission.quote}</p>
+            <div className="mission-pull-quote-attribution">{t.mission.quoteAttribution}</div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );

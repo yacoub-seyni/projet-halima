@@ -1,9 +1,12 @@
 // eslint-disable-next-line no-unused-vars
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
+import { Menu, X } from 'lucide-react';
+import { useState } from 'react';
 import logo from '../assets/pr_halima.png';
 
 export const Navbar = ({ lang, setLang, t }) => {
   const { scrollY } = useScroll();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navBackground = useTransform(
     scrollY,
@@ -18,62 +21,100 @@ export const Navbar = ({ lang, setLang, t }) => {
 
   const links = [
     { href: '#mission', label: t.nav.mission },
+    { href: '#programs', label: t.nav.programs },
     { href: '#impact', label: t.nav.impact },
-    { href: '#philosophy', label: t.nav.philosophy },
-    { href: '#process', label: t.nav.process },
+    { href: '#gallery', label: t.nav.gallery },
+    { href: '#founder', label: t.nav.founder },
+    { href: '#contact', label: t.nav.contact },
   ];
 
   const handleNavClick = (e, href) => {
     e.preventDefault();
+    setIsMenuOpen(false);
     const el = document.querySelector(href);
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <motion.nav
-      className="navbar"
-      initial={{ y: -100, x: "-50%", opacity: 0 }}
-      animate={{ y: 0, x: "-50%", opacity: 1 }}
-      transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-      style={{ background: navBackground, boxShadow: navShadow }}
-    >
-      <motion.div
-        className="nav-logo"
-        whileHover={{ scale: 1.02 }}
-        transition={{ type: 'spring', stiffness: 400 }}
+    <>
+      <motion.nav
+        className="navbar"
+        initial={{ y: -100, x: "-50%", opacity: 0 }}
+        animate={{ y: 0, x: "-50%", opacity: 1 }}
+        transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        style={{ background: navBackground, boxShadow: navShadow }}
       >
-        <img src={logo} alt="Projet Halima" className="nav-logo-img" />
-        Projet Halima
-      </motion.div>
+        <motion.div
+          className="nav-logo"
+          whileHover={{ scale: 1.02 }}
+          transition={{ type: 'spring', stiffness: 400 }}
+        >
+          <img src={logo} alt="Projet Halima" className="nav-logo-img" />
+          Projet Halima
+        </motion.div>
 
-      <div className="nav-links">
-        {links.map((link) => (
-          <motion.a
-            key={link.href}
-            href={link.href}
-            onClick={(e) => handleNavClick(e, link.href)}
-            whileHover={{ y: -2 }}
-            transition={{ type: 'spring', stiffness: 400 }}
-          >
-            {link.label}
-          </motion.a>
-        ))}
+        <div className="nav-links">
+          {links.map((link) => (
+            <motion.a
+              key={link.href}
+              href={link.href}
+              onClick={(e) => handleNavClick(e, link.href)}
+              whileHover={{ y: -2 }}
+              transition={{ type: 'spring', stiffness: 400 }}
+            >
+              {link.label}
+            </motion.a>
+          ))}
+        </div>
 
-        <div className="lang-toggle">
+        <div className="nav-actions">
+          <div className="lang-toggle">
+            <button
+              className={lang === 'en' ? 'active' : ''}
+              onClick={() => setLang('en')}
+            >
+              EN
+            </button>
+            <button
+              className={lang === 'fr' ? 'active' : ''}
+              onClick={() => setLang('fr')}
+            >
+              FR
+            </button>
+          </div>
+
           <button
-            className={lang === 'en' ? 'active' : ''}
-            onClick={() => setLang('en')}
+            className="nav-menu-toggle"
+            onClick={() => setIsMenuOpen((open) => !open)}
+            aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={isMenuOpen}
           >
-            EN
-          </button>
-          <button
-            className={lang === 'fr' ? 'active' : ''}
-            onClick={() => setLang('fr')}
-          >
-            FR
+            {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>
-      </div>
-    </motion.nav>
+      </motion.nav>
+
+      <AnimatePresence>
+        {isMenuOpen && (
+          <motion.div
+            className="nav-mobile-panel"
+            initial={{ opacity: 0, y: -12 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -12 }}
+            transition={{ duration: 0.25, ease: [0.25, 0.1, 0.25, 1] }}
+          >
+            {links.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={(e) => handleNavClick(e, link.href)}
+              >
+                {link.label}
+              </a>
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </>
   );
 };

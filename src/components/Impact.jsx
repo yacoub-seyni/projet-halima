@@ -81,6 +81,16 @@ export const Impact = ({ t }) => {
             <StatCard key={stat.label} stat={stat} delay={i * 0.15} />
           ))}
         </div>
+
+        <motion.div
+          className="impact-note"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-40px' }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+        >
+          {t.impact.note}
+        </motion.div>
       </div>
     </section>
   );

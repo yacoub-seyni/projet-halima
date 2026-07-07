@@ -2,24 +2,53 @@ export const translations = {
   en: {
     nav: {
       mission: "Mission",
+      programs: "Programs",
       impact: "Impact",
+      gallery: "Gallery",
       philosophy: "Philosophy",
+      founder: "Founder",
       process: "How We Work",
       contact: "Contact",
     },
     hero: {
-      badge: "Since 2019 — Maradi, Niger",
+      badge: "Since 2019 · Maradi, Niger",
       title: "Projet Halima",
-      subtitle: "The Operating System of Success",
-      tagline: "Building Libraries. Training Guardians. Sustaining Knowledge.",
+      subtitle: "Knowledge and Care, in Halima's Name",
+      tagline: "Building libraries. Training guardians. Supporting lives.",
       cta: "Discover Our Mission",
     },
     mission: {
       eyebrow: "Our Mission",
-      title: "Creating Guardians of Knowledge",
-      p1: "We don't just build libraries — we build the culture that keeps them alive. Named in honor of Halima, a devoted English teacher in Maradi, Niger, Projet Halima transforms how communities relate to books and learning.",
-      p2: "In a region where over half of children are out of school, we work alongside village chiefs, teachers, and parents to make reading magnetic — not just accessible. Every book we place is not merely donated. It is stewarded.",
-      p3: "We train students to become Guardians of Knowledge — young custodians who learn the protocols of care so a single book can serve an entire generation.",
+      title: "One Name, Two Missions",
+      p1: "Projet Halima carries the name of our mother — Halima, a devoted English teacher in Maradi, Niger. Everything we do continues a lesson she taught: knowledge is a responsibility, and so is caring for one another.",
+      p2: "Her life gave us our first mission. Since 2019, we have promoted reading in elementary and middle schools — holding conferences, building village libraries, and training students to care for them.",
+      p3: "Her passing gave us our second. Diabetes took her from us, so each year our family stands with 20 to 30 people living with diabetes in Niger — in her memory, and in their corner.",
+      quote: "Knowledge is a responsibility.",
+      quoteAttribution: "Halima's lesson",
+    },
+    programs: {
+      eyebrow: "Our Programs",
+      title: "What We Do",
+      items: [
+        {
+          title: "Reading & Libraries",
+          status: "2019–2021 · Seeking funding to restart",
+          statusType: "seeking",
+          body: "Our founding program. Conferences in elementary and middle schools, four village libraries built in rural Maradi and Tillabéri, and students trained as Guardians of Knowledge to keep every book alive.",
+        },
+        {
+          title: "Fonds Halima — Health",
+          status: "Active · Every year",
+          statusType: "active",
+          body: "The heart of the project today. Each year, our family supports 20 to 30 people living with diabetes in Niger — care and supplies — so that what took Halima costs others less.",
+        },
+        {
+          title: "Les Héros de l'Anglais",
+          status: "In development",
+          statusType: "development",
+          body: "An English-learning initiative for young Nigeriens, honoring Halima's craft as an English teacher. Currently in development with partners in the United States.",
+        },
+      ],
     },
     impact: {
       eyebrow: "Our Impact",
@@ -30,6 +59,7 @@ export const translations = {
         { number: "1300", suffix: "+", label: "Students Reached" },
         { number: "50", suffix: "+", label: "Guardian Schools Trained" },
       ],
+      note: "Beyond the numbers: each year, our family accompanies 20 to 30 people living with diabetes in Niger, in Halima's memory.",
     },
     gallery: {
       eyebrow: "In the Field",
@@ -42,8 +72,20 @@ export const translations = {
     philosophy: {
       eyebrow: "Our Philosophy",
       title: "Deployment Is Easy.\nMaintenance Is Hard.",
-      body: "Infrastructure decays. Culture endures. We don't just deliver resources — we install the operating system that keeps them running. A donated book is hardware. The desire to read, protect, and pass it on — that is the software.",
+      body: "Infrastructure decays. Culture endures. We don't just deliver resources. We install the operating system that keeps them running. A donated book is hardware. The desire to read, protect, and pass it on. That is the software.",
       quote: "Literacy is not a gift. It is a discipline.",
+    },
+    founder: {
+      eyebrow: "The Founder",
+      title: "Why I Built This",
+      paragraphs: [
+        "Halima was my mother. She taught English in Maradi, Niger. Her deepest lesson was that knowledge is a responsibility. You protect a book the way you protect something precious.",
+        "My father owned a bookstore in Maradi. It was full of books people valued enough to pay for. That shop taught me what a working system looks like: inputs, processes, outputs. Reliability over novelty.",
+        "My mother passed away in 2005, from diabetes. I carried both lessons forward. Projet Halima brings my father's respect for books and my mother's belief in education to communities where books are scarce — and every year, it stands with people fighting the disease that took her. We don't just deliver resources. We build the culture that keeps them alive.",
+      ],
+      cta: "Read my full story",
+      ctaUrl: "https://yacoubseyni.com/#philosophy",
+      signature: "Yacoub Seyni, Founder",
     },
     process: {
       eyebrow: "Our Approach",
@@ -62,19 +104,22 @@ export const translations = {
         {
           number: "03",
           title: "Build the Library",
-          desc: "Together with the community, we construct a library space — a physical commitment to knowledge that belongs to the village.",
+          desc: "Together with the community, we construct a library space, a physical commitment to knowledge that belongs to the village.",
         },
         {
           number: "04",
           title: "Train the Guardians",
-          desc: "Students are trained in the protocols of care — how to handle, maintain, and protect books so a single resource serves a generation.",
+          desc: "Students are trained in the protocols of care: how to handle, maintain, and protect books so a single resource serves a generation.",
         },
       ],
     },
     footer: {
-      tagline: "Literacy. Stewardship. Endurance.",
+      tagline: "Literacy. Health. Endurance.",
       copyright: "Projet Halima",
       builtBy: "Built with purpose.",
+      contactHeading: "Contact",
+      contactLine: "Want to help or partner with us?",
+      contactEmail: "contact@projethalima.com",
     },
     quotes: [
       { text: "Education is the most powerful weapon which you can use to change the world.", author: "Nelson Mandela" },
@@ -142,24 +187,53 @@ export const translations = {
   fr: {
     nav: {
       mission: "Mission",
+      programs: "Programmes",
       impact: "Impact",
+      gallery: "Galerie",
       philosophy: "Philosophie",
+      founder: "Fondateur",
       process: "Notre Approche",
       contact: "Contact",
     },
     hero: {
-      badge: "Depuis 2019 — Maradi, Niger",
+      badge: "Depuis 2019 · Maradi, Niger",
       title: "Projet Halima",
-      subtitle: "Le Système d'Exploitation du Succès",
-      tagline: "Construire des Bibliothèques. Former des Gardiens. Pérenniser le Savoir.",
+      subtitle: "Le Savoir et le Soin, au Nom de Halima",
+      tagline: "Construire des bibliothèques. Former des gardiens. Soutenir des vies.",
       cta: "Découvrir Notre Mission",
     },
     mission: {
       eyebrow: "Notre Mission",
-      title: "Former des Gardiens du Savoir",
-      p1: "Nous ne construisons pas seulement des bibliothèques — nous bâtissons la culture qui les fait vivre. Nommé en l'honneur de Halima, une enseignante d'anglais dévouée à Maradi, au Niger, le Projet Halima transforme la relation des communautés avec les livres et l'apprentissage.",
-      p2: "Dans une région où plus de la moitié des enfants ne sont pas scolarisés, nous travaillons aux côtés des chefs de village, des enseignants et des parents pour rendre la lecture magnétique — et pas simplement accessible. Chaque livre que nous plaçons n'est pas simplement donné. Il est confié à un gardien.",
-      p3: "Nous formons les élèves à devenir des Gardiens du Savoir — de jeunes dépositaires qui apprennent les protocoles de soin afin qu'un seul livre puisse servir toute une génération.",
+      title: "Un Nom, Deux Missions",
+      p1: "Projet Halima porte le nom de notre mère — Halima, professeure d'anglais dévouée à Maradi, au Niger. Tout ce que nous faisons prolonge une leçon qu'elle nous a transmise : le savoir est une responsabilité, et prendre soin les uns des autres aussi.",
+      p2: "Sa vie nous a donné notre première mission. Depuis 2019, nous faisons la promotion de la lecture dans les écoles primaires et les collèges — conférences, bibliothèques villageoises, et formation des élèves à en prendre soin.",
+      p3: "Son départ nous a donné la seconde. Le diabète nous l'a enlevée ; alors chaque année, notre famille accompagne 20 à 30 personnes vivant avec le diabète au Niger — en sa mémoire, et à leurs côtés.",
+      quote: "Le savoir est une responsabilité.",
+      quoteAttribution: "La leçon de Halima",
+    },
+    programs: {
+      eyebrow: "Nos Programmes",
+      title: "Ce Que Nous Faisons",
+      items: [
+        {
+          title: "Lecture & Bibliothèques",
+          status: "2019–2021 · En recherche de financements",
+          statusType: "seeking",
+          body: "Notre programme fondateur. Des conférences dans les écoles primaires et les collèges, quatre bibliothèques construites dans les zones rurales de Maradi et Tillabéri, et des élèves formés comme Gardiens du Savoir pour faire vivre chaque livre.",
+        },
+        {
+          title: "Fonds Halima — Santé",
+          status: "Actif · Chaque année",
+          statusType: "active",
+          body: "Le cœur du projet aujourd'hui. Chaque année, notre famille accompagne 20 à 30 personnes vivant avec le diabète au Niger — soins et fournitures — pour que ce qui a emporté Halima coûte moins aux autres.",
+        },
+        {
+          title: "Les Héros de l'Anglais",
+          status: "En préparation",
+          statusType: "development",
+          body: "Une initiative d'apprentissage de l'anglais pour les jeunes Nigériens, en hommage au métier de Halima, professeure d'anglais. Actuellement en préparation avec des partenaires aux États-Unis.",
+        },
+      ],
     },
     impact: {
       eyebrow: "Notre Impact",
@@ -170,6 +244,7 @@ export const translations = {
         { number: "1300", suffix: "+", label: "Élèves Touchés" },
         { number: "50", suffix: "+", label: "Écoles Gardiennes Formées" },
       ],
+      note: "Au-delà des chiffres : chaque année, notre famille accompagne 20 à 30 personnes vivant avec le diabète au Niger, en mémoire de Halima.",
     },
     gallery: {
       eyebrow: "Sur le Terrain",
@@ -182,8 +257,20 @@ export const translations = {
     philosophy: {
       eyebrow: "Notre Philosophie",
       title: "Déployer est Facile.\nMaintenir est Difficile.",
-      body: "L'infrastructure se dégrade. La culture perdure. Nous ne livrons pas seulement des ressources — nous installons le système d'exploitation qui les fait fonctionner. Un livre donné, c'est le matériel. Le désir de lire, de protéger et de transmettre — c'est le logiciel.",
+      body: "L'infrastructure se dégrade. La culture perdure. Nous ne livrons pas seulement des ressources. Nous installons le système d'exploitation qui les fait fonctionner. Un livre donné, c'est le matériel. Le désir de lire, de protéger et de transmettre. C'est le logiciel.",
       quote: "L'alphabétisation n'est pas un cadeau. C'est une discipline.",
+    },
+    founder: {
+      eyebrow: "Le Fondateur",
+      title: "Pourquoi J'ai Créé Ce Projet",
+      paragraphs: [
+        "Halima était ma mère. Elle enseignait l'anglais à Maradi, au Niger. Sa leçon la plus profonde était que le savoir est une responsabilité. On protège un livre comme on protège un bien précieux.",
+        "Mon père tenait une librairie à Maradi. Elle était pleine de livres que les gens estimaient assez pour les acheter. Cette boutique m'a appris à quoi ressemble un système qui fonctionne : des entrées, des processus, des résultats. La fiabilité avant la nouveauté.",
+        "Ma mère est partie en 2005, emportée par le diabète. J'ai gardé ces deux leçons. Projet Halima apporte le respect des livres de mon père et la foi de ma mère en l'éducation aux communautés où les livres manquent — et chaque année, il se tient aux côtés de ceux qui combattent la maladie qui nous l'a prise. Nous ne livrons pas seulement des ressources. Nous bâtissons la culture qui les fait vivre.",
+      ],
+      cta: "Lire mon histoire complète",
+      ctaUrl: "https://yacoubseyni.com/#philosophy",
+      signature: "Yacoub Seyni, Fondateur",
     },
     process: {
       eyebrow: "Notre Approche",
@@ -202,19 +289,22 @@ export const translations = {
         {
           number: "03",
           title: "Construire la Bibliothèque",
-          desc: "Avec la communauté, nous construisons un espace de bibliothèque — un engagement physique envers le savoir qui appartient au village.",
+          desc: "Avec la communauté, nous construisons un espace de bibliothèque, un engagement physique envers le savoir qui appartient au village.",
         },
         {
           number: "04",
           title: "Former les Gardiens",
-          desc: "Les élèves sont formés aux protocoles de soin — comment manipuler, entretenir et protéger les livres afin qu'une seule ressource serve toute une génération.",
+          desc: "Les élèves sont formés aux protocoles de soin : comment manipuler, entretenir et protéger les livres afin qu'une seule ressource serve toute une génération.",
         },
       ],
     },
     footer: {
-      tagline: "Alphabétisation. Intendance. Endurance.",
+      tagline: "Lecture. Santé. Endurance.",
       copyright: "Projet Halima",
       builtBy: "Construit avec conviction.",
+      contactHeading: "Contact",
+      contactLine: "Envie d'aider ou de devenir partenaire ?",
+      contactEmail: "contact@projethalima.com",
     },
     quotes: [
       { text: "L'éducation est l'arme la plus puissante que l'on puisse utiliser pour changer le monde.", author: "Nelson Mandela" },
