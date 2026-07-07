@@ -11,7 +11,7 @@ export const translations = {
       contact: "Contact",
     },
     hero: {
-      badge: "Since 2019 · Maradi, Niger",
+      badge: "Since 2018 · Maradi, Niger",
       title: "Projet Halima",
       subtitle: "Knowledge and Care, in Halima's Name",
       tagline: "Building libraries. Training guardians. Supporting lives.",
@@ -21,7 +21,7 @@ export const translations = {
       eyebrow: "Our Mission",
       title: "One Name, Two Missions",
       p1: "Projet Halima carries the name of our mother — Halima, a devoted English teacher in Maradi, Niger. Everything we do continues a lesson she taught: knowledge is a responsibility, and so is caring for one another.",
-      p2: "Her life gave us our first mission. Since 2019, we have promoted reading in elementary and middle schools — holding conferences, building village libraries, and training students to care for them.",
+      p2: "Her life gave us our first mission. Since November 2018, we have promoted reading in elementary and middle schools — holding conferences, building village libraries, and training students to care for them.",
       p3: "Her passing gave us our second. Diabetes took her from us, so each year our family stands with 20 to 30 people living with diabetes in Niger — in her memory, and in their corner.",
       quote: "Knowledge is a responsibility.",
       quoteAttribution: "Halima's lesson",
@@ -32,7 +32,7 @@ export const translations = {
       items: [
         {
           title: "Reading & Libraries",
-          status: "2019–2021 · Seeking funding to restart",
+          status: "2018–2021 · Seeking funding to restart",
           statusType: "seeking",
           body: "Our founding program. Conferences in elementary and middle schools, four village libraries built in rural Maradi and Tillabéri, and students trained as Guardians of Knowledge to keep every book alive.",
         },
@@ -58,6 +58,7 @@ export const translations = {
         { number: "1000", suffix: "+", label: "Books Stewarded" },
         { number: "1300", suffix: "+", label: "Students Reached" },
         { number: "50", suffix: "+", label: "Guardian Schools Trained" },
+        { number: "16", suffix: "+", label: "Reading Days Organized" },
       ],
       note: "Beyond the numbers: each year, our family accompanies 20 to 30 people living with diabetes in Niger, in Halima's memory.",
     },
@@ -196,7 +197,7 @@ export const translations = {
       contact: "Contact",
     },
     hero: {
-      badge: "Depuis 2019 · Maradi, Niger",
+      badge: "Depuis 2018 · Maradi, Niger",
       title: "Projet Halima",
       subtitle: "Le Savoir et le Soin, au Nom de Halima",
       tagline: "Construire des bibliothèques. Former des gardiens. Soutenir des vies.",
@@ -206,7 +207,7 @@ export const translations = {
       eyebrow: "Notre Mission",
       title: "Un Nom, Deux Missions",
       p1: "Projet Halima porte le nom de notre mère — Halima, professeure d'anglais dévouée à Maradi, au Niger. Tout ce que nous faisons prolonge une leçon qu'elle nous a transmise : le savoir est une responsabilité, et prendre soin les uns des autres aussi.",
-      p2: "Sa vie nous a donné notre première mission. Depuis 2019, nous faisons la promotion de la lecture dans les écoles primaires et les collèges — conférences, bibliothèques villageoises, et formation des élèves à en prendre soin.",
+      p2: "Sa vie nous a donné notre première mission. Depuis novembre 2018, nous faisons la promotion de la lecture dans les écoles primaires et les collèges — conférences, bibliothèques villageoises, et formation des élèves à en prendre soin.",
       p3: "Son départ nous a donné la seconde. Le diabète nous l'a enlevée ; alors chaque année, notre famille accompagne 20 à 30 personnes vivant avec le diabète au Niger — en sa mémoire, et à leurs côtés.",
       quote: "Le savoir est une responsabilité.",
       quoteAttribution: "La leçon de Halima",
@@ -217,7 +218,7 @@ export const translations = {
       items: [
         {
           title: "Lecture & Bibliothèques",
-          status: "2019–2021 · En recherche de financements",
+          status: "2018–2021 · En recherche de financements",
           statusType: "seeking",
           body: "Notre programme fondateur. Des conférences dans les écoles primaires et les collèges, quatre bibliothèques construites dans les zones rurales de Maradi et Tillabéri, et des élèves formés comme Gardiens du Savoir pour faire vivre chaque livre.",
         },
@@ -243,6 +244,7 @@ export const translations = {
         { number: "1000", suffix: "+", label: "Livres Confiés" },
         { number: "1300", suffix: "+", label: "Élèves Touchés" },
         { number: "50", suffix: "+", label: "Écoles Gardiennes Formées" },
+        { number: "16", suffix: "+", label: "Journées de Lecture Organisées" },
       ],
       note: "Au-delà des chiffres : chaque année, notre famille accompagne 20 à 30 personnes vivant avec le diabète au Niger, en mémoire de Halima.",
     },

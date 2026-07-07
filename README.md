@@ -2,11 +2,11 @@
 
 Projet Halima carries the name of our mother, Halima, and carries forward two missions in her memory.
 
-The first: books should not arrive in a community like visitors. They should become part of the community's memory, discipline, and future. Since 2019, we build school libraries in Niger and train students to become **Guardians of Knowledge**: young custodians who learn how to protect, organize, share, and sustain the books entrusted to their school.
+The first: books should not arrive in a community like visitors. They should become part of the community's memory, discipline, and future. Since November 2018, we have built school libraries in Niger and train students to become **Guardians of Knowledge**: young custodians who learn how to protect, organize, share, and sustain the books entrusted to their school.
 
 The second: Halima passed away from diabetes, so each year our family stands with 20 to 30 people living with diabetes in Niger — in her memory, and in their corner.
 
-The work began in 2019 in Maradi, Niger, and is named after my mother, Halima.
+The work began in November 2018 in Maradi, Niger, and is named after my mother, Halima.
 
 ## Why I Am Doing This
 

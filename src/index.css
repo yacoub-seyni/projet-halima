@@ -1011,8 +1011,8 @@ p {
 
 .impact-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 28px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
   margin-top: 60px;
 }
 
@@ -1403,7 +1403,7 @@ p {
   }
 
   .impact-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 12px;
   }
 
@@ -1478,6 +1478,10 @@ p {
   .impact-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
+  }
+
+  .impact-grid .impact-card:last-child {
+    grid-column: 1 / -1;
   }
 
   .impact-card {
