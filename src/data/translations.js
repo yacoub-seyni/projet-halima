@@ -60,7 +60,7 @@ export const translations = {
         { number: "50", suffix: "+", label: "Guardian Schools Trained" },
         { number: "16", suffix: "+", label: "Reading Days Organized" },
       ],
-      note: "Beyond the numbers: each year, our family accompanies 20 to 30 people living with diabetes in Niger, in Halima's memory.",
+      note: "Beyond the numbers: each year, our family accompanies 20 to 30 people living with diabetes in Niger — more than 50 people over the last two years — in Halima's memory.",
     },
     gallery: {
       eyebrow: "In the Field",
@@ -246,7 +246,7 @@ export const translations = {
         { number: "50", suffix: "+", label: "Écoles Gardiennes Formées" },
         { number: "16", suffix: "+", label: "Journées de Lecture Organisées" },
       ],
-      note: "Au-delà des chiffres : chaque année, notre famille accompagne 20 à 30 personnes vivant avec le diabète au Niger, en mémoire de Halima.",
+      note: "Au-delà des chiffres : chaque année, notre famille accompagne 20 à 30 personnes vivant avec le diabète au Niger — plus de 50 personnes sur les deux dernières années — en mémoire de Halima.",
     },
     gallery: {
       eyebrow: "Sur le Terrain",
