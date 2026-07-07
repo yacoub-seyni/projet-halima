@@ -119,7 +119,7 @@ export const translations = {
       builtBy: "Built with purpose.",
       contactHeading: "Contact",
       contactLine: "Want to help or partner with us?",
-      contactEmail: "contact@projethalima.com",
+      contactEmail: "contact@projethalima.org",
     },
     quotes: [
       { text: "Education is the most powerful weapon which you can use to change the world.", author: "Nelson Mandela" },
@@ -304,7 +304,7 @@ export const translations = {
       builtBy: "Construit avec conviction.",
       contactHeading: "Contact",
       contactLine: "Envie d'aider ou de devenir partenaire ?",
-      contactEmail: "contact@projethalima.com",
+      contactEmail: "contact@projethalima.org",
     },
     quotes: [
       { text: "L'éducation est l'arme la plus puissante que l'on puisse utiliser pour changer le monde.", author: "Nelson Mandela" },
