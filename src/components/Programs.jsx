@@ -43,9 +43,9 @@ export const Programs = ({ t }) => {
           whileInView="visible"
           viewport={{ once: true, margin: '-60px' }}
         >
-          {t.programs.items.map((program) => (
+          {t.programs.items.map((program, i) => (
             <motion.div
-              key={program.title}
+              key={i}
               className="program-card"
               variants={cardVariants}
               whileHover={{ y: -5 }}

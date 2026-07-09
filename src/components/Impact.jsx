@@ -78,7 +78,7 @@ export const Impact = ({ t }) => {
 
         <div className="impact-grid">
           {t.impact.stats.map((stat, i) => (
-            <StatCard key={stat.label} stat={stat} delay={i * 0.15} />
+            <StatCard key={i} stat={stat} delay={i * 0.15} />
           ))}
         </div>
 
