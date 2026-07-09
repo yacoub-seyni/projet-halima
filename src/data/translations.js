@@ -48,6 +48,12 @@ export const translations = {
           statusType: "development",
           body: "An English-learning initiative for young Nigeriens, honoring Halima's craft as an English teacher. Currently in development with partners in the United States.",
         },
+        {
+          title: "Trees & Plants",
+          status: "In preparation · Led by our father",
+          statusType: "development",
+          body: "A living gift carried by our father, Seyni: trees and plants offered to families, each with a trained guardian — because in the Sahel, a tree only counts if it is still alive a year later. First documented season in preparation.",
+        },
       ],
     },
     impact: {
@@ -233,6 +239,12 @@ export const translations = {
           status: "En préparation",
           statusType: "development",
           body: "Une initiative d'apprentissage de l'anglais pour les jeunes Nigériens, en hommage au métier de Halima, professeure d'anglais. Actuellement en préparation avec des partenaires aux États-Unis.",
+        },
+        {
+          title: "Arbres & Plantes",
+          status: "En préparation · Porté par notre père",
+          statusType: "development",
+          body: "Un don vivant porté par notre père, Seyni : des arbres et des plantes offerts aux familles, chacun avec un gardien formé — car au Sahel, un arbre ne compte que s'il est encore vivant un an plus tard. Première saison documentée en préparation.",
         },
       ],
     },
