@@ -123,7 +123,7 @@ const CoverPage = ({ currentPage, totalPages }) => {
       }}
     >
       <div className="cover-title">
-        Projet Halima
+        Projet Halima Seyni
         <span>Guardians of Knowledge</span>
       </div>
     </motion.div>

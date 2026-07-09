@@ -363,6 +363,7 @@ p {
 
 .hero-title {
   color: var(--text-primary);
+  text-wrap: balance;
 }
 
 .hero-subtitle {

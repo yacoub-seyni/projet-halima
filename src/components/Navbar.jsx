@@ -49,8 +49,8 @@ export const Navbar = ({ lang, setLang, t }) => {
           whileHover={{ scale: 1.02 }}
           transition={{ type: 'spring', stiffness: 400 }}
         >
-          <img src={logo} alt="Projet Halima" className="nav-logo-img" />
-          Projet Halima
+          <img src={logo} alt="Projet Halima Seyni" className="nav-logo-img" />
+          Projet Halima Seyni
         </motion.div>
 
         <div className="nav-links">

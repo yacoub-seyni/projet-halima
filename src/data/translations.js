@@ -12,15 +12,15 @@ export const translations = {
     },
     hero: {
       badge: "Since 2018 · Maradi, Niger",
-      title: "Projet Halima",
+      title: "Projet Halima Seyni",
       subtitle: "Knowledge and Care, in Halima's Name",
       tagline: "Building libraries. Training guardians. Supporting lives.",
       cta: "Discover Our Mission",
     },
     mission: {
       eyebrow: "Our Mission",
-      title: "One Name, Two Missions",
-      p1: "Projet Halima carries the name of our mother — Halima, a devoted English teacher in Maradi, Niger. Everything we do continues a lesson she taught: knowledge is a responsibility, and so is caring for one another.",
+      title: "One Family, Two Missions",
+      p1: "Projet Halima Seyni carries the names of our parents: Halima, our mother, a devoted English teacher in Maradi, Niger — and Seyni, our father, a bookseller in the same town. Everything we do continues a lesson they taught us: knowledge is a responsibility, and so is caring for one another.",
       p2: "Her life gave us our first mission. Since November 2018, we have promoted reading in elementary and middle schools — holding conferences, building village libraries, and training students to care for them.",
       p3: "Her passing gave us our second. Diabetes took her from us, so each year our family stands with 20 to 30 people living with diabetes in Niger — in her memory, and in their corner.",
       quote: "Knowledge is a responsibility.",
@@ -82,7 +82,7 @@ export const translations = {
       paragraphs: [
         "Halima was my mother. She taught English in Maradi, Niger. Her deepest lesson was that knowledge is a responsibility. You protect a book the way you protect something precious.",
         "My father owned a bookstore in Maradi. It was full of books people valued enough to pay for. That shop taught me what a working system looks like: inputs, processes, outputs. Reliability over novelty.",
-        "My mother passed away in 2005, from diabetes. I carried both lessons forward. Projet Halima brings my father's respect for books and my mother's belief in education to communities where books are scarce — and every year, it stands with people fighting the disease that took her. We don't just deliver resources. We build the culture that keeps them alive.",
+        "My mother passed away in 2005, from diabetes. I carried both lessons forward. Projet Halima Seyni brings my father's respect for books and my mother's belief in education to communities where books are scarce — and every year, it stands with people fighting the disease that took her. We don't just deliver resources. We build the culture that keeps them alive.",
       ],
       cta: "Read my full story",
       ctaUrl: "https://yacoubseyni.com/#philosophy",
@@ -116,7 +116,7 @@ export const translations = {
     },
     footer: {
       tagline: "Literacy. Health. Endurance.",
-      copyright: "Projet Halima",
+      copyright: "Projet Halima Seyni",
       builtBy: "Built with purpose.",
       contactHeading: "Contact",
       contactLine: "Want to help or partner with us?",
@@ -198,15 +198,15 @@ export const translations = {
     },
     hero: {
       badge: "Depuis 2018 · Maradi, Niger",
-      title: "Projet Halima",
+      title: "Projet Halima Seyni",
       subtitle: "Le Savoir et le Soin, au Nom de Halima",
       tagline: "Construire des bibliothèques. Former des gardiens. Soutenir des vies.",
       cta: "Découvrir Notre Mission",
     },
     mission: {
       eyebrow: "Notre Mission",
-      title: "Un Nom, Deux Missions",
-      p1: "Projet Halima porte le nom de notre mère — Halima, professeure d'anglais dévouée à Maradi, au Niger. Tout ce que nous faisons prolonge une leçon qu'elle nous a transmise : le savoir est une responsabilité, et prendre soin les uns des autres aussi.",
+      title: "Une Famille, Deux Missions",
+      p1: "Projet Halima Seyni porte les noms de nos parents : Halima, notre mère, professeure d'anglais dévouée à Maradi, au Niger — et Seyni, notre père, libraire dans la même ville. Tout ce que nous faisons prolonge une leçon qu'ils nous ont transmise : le savoir est une responsabilité, et prendre soin les uns des autres aussi.",
       p2: "Sa vie nous a donné notre première mission. Depuis novembre 2018, nous faisons la promotion de la lecture dans les écoles primaires et les collèges — conférences, bibliothèques villageoises, et formation des élèves à en prendre soin.",
       p3: "Son départ nous a donné la seconde. Le diabète nous l'a enlevée ; alors chaque année, notre famille accompagne 20 à 30 personnes vivant avec le diabète au Niger — en sa mémoire, et à leurs côtés.",
       quote: "Le savoir est une responsabilité.",
@@ -268,7 +268,7 @@ export const translations = {
       paragraphs: [
         "Halima était ma mère. Elle enseignait l'anglais à Maradi, au Niger. Sa leçon la plus profonde était que le savoir est une responsabilité. On protège un livre comme on protège un bien précieux.",
         "Mon père tenait une librairie à Maradi. Elle était pleine de livres que les gens estimaient assez pour les acheter. Cette boutique m'a appris à quoi ressemble un système qui fonctionne : des entrées, des processus, des résultats. La fiabilité avant la nouveauté.",
-        "Ma mère est partie en 2005, emportée par le diabète. J'ai gardé ces deux leçons. Projet Halima apporte le respect des livres de mon père et la foi de ma mère en l'éducation aux communautés où les livres manquent — et chaque année, il se tient aux côtés de ceux qui combattent la maladie qui nous l'a prise. Nous ne livrons pas seulement des ressources. Nous bâtissons la culture qui les fait vivre.",
+        "Ma mère est partie en 2005, emportée par le diabète. J'ai gardé ces deux leçons. Projet Halima Seyni apporte le respect des livres de mon père et la foi de ma mère en l'éducation aux communautés où les livres manquent — et chaque année, il se tient aux côtés de ceux qui combattent la maladie qui nous l'a prise. Nous ne livrons pas seulement des ressources. Nous bâtissons la culture qui les fait vivre.",
       ],
       cta: "Lire mon histoire complète",
       ctaUrl: "https://yacoubseyni.com/#philosophy",
@@ -302,7 +302,7 @@ export const translations = {
     },
     footer: {
       tagline: "Lecture. Santé. Endurance.",
-      copyright: "Projet Halima",
+      copyright: "Projet Halima Seyni",
       builtBy: "Construit avec conviction.",
       contactHeading: "Contact",
       contactLine: "Envie d'aider ou de devenir partenaire ?",

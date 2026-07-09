@@ -1,6 +1,6 @@
-# Projet Halima
+# Projet Halima Seyni
 
-Projet Halima carries the name of our mother, Halima, and carries forward two missions in her memory.
+Projet Halima Seyni carries our parents' names — Halima, our mother, and Seyni, our father — and carries forward two missions in our mother's memory.
 
 The first: books should not arrive in a community like visitors. They should become part of the community's memory, discipline, and future. Since November 2018, we have built school libraries in Niger and train students to become **Guardians of Knowledge**: young custodians who learn how to protect, organize, share, and sustain the books entrusted to their school.
 
@@ -20,7 +20,7 @@ After my mother passed away, English became one of the ways I stayed connected t
 
 That experience shaped a simple conviction: opportunity often begins with access, but access only lasts when people know how to protect and use what they have.
 
-Projet Halima is my attempt to carry that conviction home.
+Projet Halima Seyni is my attempt to carry that conviction home.
 
 ## The Problem
 
@@ -36,7 +36,7 @@ Infrastructure fades. Culture stays.
 
 ## What We Do
 
-Projet Halima does not only donate books. We build the culture that keeps books alive.
+Projet Halima Seyni does not only donate books. We build the culture that keeps books alive.
 
 Our work has four parts:
 
@@ -55,7 +55,7 @@ A donated book can disappear in a year. A protected book can serve a generation.
 - 50+ schools trained through Guardian-centered literacy work
 - 20–30 people living with diabetes supported each year, in Halima's memory
 
-These numbers matter, but the deeper measure is whether the libraries still matter after the excitement fades, and whether the families we support each year feel less alone. Projet Halima is designed for that long middle: the ordinary days when students open books, return them, repair them, recommend them, and learn that knowledge is something they are responsible for — and the ordinary years when our family keeps showing up for people fighting the disease that took Halima from us.
+These numbers matter, but the deeper measure is whether the libraries still matter after the excitement fades, and whether the families we support each year feel less alone. Projet Halima Seyni is designed for that long middle: the ordinary days when students open books, return them, repair them, recommend them, and learn that knowledge is something they are responsible for — and the ordinary years when our family keeps showing up for people fighting the disease that took Halima from us.
 
 ## The Philosophy
 
@@ -67,7 +67,7 @@ Those are the hardware.
 
 The software is the culture around them: the routines, expectations, pride, and responsibility that make people care enough to maintain what was built.
 
-Projet Halima is not charity in the simple sense of giving. It is stewardship. It asks a harder question:
+Projet Halima Seyni is not charity in the simple sense of giving. It is stewardship. It asks a harder question:
 
 > What would it take for this resource to still be useful ten years from now?
 
@@ -85,10 +85,10 @@ Not a monument. A practice.
 
 ## Built For The Long Term
 
-Projet Halima is part of a broader belief behind the work I do across education and technology: people in low-resource environments are not short on ambition, creativity, or discipline. They are often short on systems that respect their reality.
+Projet Halima Seyni is part of a broader belief behind the work I do across education and technology: people in low-resource environments are not short on ambition, creativity, or discipline. They are often short on systems that respect their reality.
 
 The goal is not to import fragile solutions that only work under perfect conditions. The goal is to build with the community, for the conditions that actually exist, and in a way that can endure.
 
-Projet Halima is one expression of that belief:
+Projet Halima Seyni is one expression of that belief:
 
 **Build libraries. Train guardians. Sustain knowledge.**
